@@ -66,15 +66,12 @@ The current view direction determines how movement keys map to the playfield, so
 RubikCube3D/
 ├── RubikCube3D.html  # Responsive game shell and controls
 ├── game.js           # Modern module-based game engine and render loop
-├── styles.css        # Responsive game presentation
-├── RubikCube.js      # Previous legacy engine, retained for reference
-├── CellCube.js       # Previous legacy cell model, retained for reference
-└── three.js          # Previous bundled runtime, retained for reference
+└── styles.css        # Responsive game presentation
 ```
 
 ## 2026 maintenance notes
 
-The active game uses a pinned Three.js ES module loaded from jsDelivr and modern `BoxGeometry`, `MeshStandardMaterial`, `WebGLRenderer`, pointer events, and `requestAnimationFrame` APIs. The old `RubikCube.js`, `CellCube.js`, and bundled `three.js` files remain in the folder as migration references but are no longer loaded by the main page.
+The active game uses a pinned Three.js ES module loaded from jsDelivr and modern `BoxGeometry`, `MeshStandardMaterial`, `WebGLRenderer`, pointer events, and `requestAnimationFrame` APIs.
 
 The game loop uses elapsed time rather than nested intervals, and the renderer supports responsive `dvh` sizing, high-DPI limits, resize-aware camera projection, accessible controls, pointer capture, restart, and live pause/projection status.
 
