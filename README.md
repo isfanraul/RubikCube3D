@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# RubikCube3D
-=======
 # Rubik Cube 3D
 
 Rubik Cube 3D is a browser-based WebGL falling-block game. Pieces are built from small cubes, fall inside a 3D playfield, and can be moved, accelerated, rotated, and projected before landing.
@@ -78,6 +75,3 @@ The game loop uses elapsed time rather than nested intervals, and the renderer s
 ## Browser requirements
 
 Use a current Chrome, Edge, Firefox, or Safari release with WebGL enabled and network access to load the pinned Three.js module. The game does not send data to a server and does not require API keys, accounts, or environment variables.
-
-
->>>>>>> local-snapshot
