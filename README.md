@@ -66,12 +66,6 @@ RubikCube3D/
 └── styles.css        # Responsive game presentation
 ```
 
-## 2026 maintenance notes
-
-The active game uses a pinned Three.js ES module loaded from jsDelivr and modern `BoxGeometry`, `MeshStandardMaterial`, `WebGLRenderer`, pointer events, and `requestAnimationFrame` APIs.
-
-The game loop uses elapsed time rather than nested intervals, and the renderer supports responsive `dvh` sizing, high-DPI limits, resize-aware camera projection, accessible controls, pointer capture, restart, and live pause/projection status.
-
 ## Browser requirements
 
 Use a current Chrome, Edge, Firefox, or Safari release with WebGL enabled and network access to load the pinned Three.js module. The game does not send data to a server and does not require API keys, accounts, or environment variables.
